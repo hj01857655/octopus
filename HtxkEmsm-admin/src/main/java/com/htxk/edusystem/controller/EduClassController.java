@@ -65,7 +65,7 @@ public class EduClassController extends BaseController {
     @ResponseBody
     public AjaxResult export(EduClass eduClass) {
         List<EduClass> list = eduClassService.selectEduClassList(eduClass);
-        ExcelUtil<EduClass> util = new ExcelUtil<EduClass>(EduClass.class);
+        ExcelUtil<EduClass> util = new ExcelUtil<>(EduClass.class);
         return util.exportExcel(list, "class");
     }
 
