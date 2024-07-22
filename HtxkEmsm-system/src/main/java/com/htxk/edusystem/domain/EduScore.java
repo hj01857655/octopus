@@ -43,13 +43,13 @@ public class EduScore extends BaseEntity {
      * 更新者
      */
     @Excel(name = "更新者")
-    private String updataBy;
+    private String updateBy;
 
     /**
      * 更新时间
      */
     @Excel(name = "更新时间", width = 30, dateFormat = "yyyy-MM-dd")
-    private Date updataTime;
+    private Date updateTime;
 
     /**
      * 删除标志（0代表存在 2代表删除）
@@ -94,20 +94,32 @@ public class EduScore extends BaseEntity {
         this.score = score;
     }
 
-    public String getUpdataBy() {
-        return updataBy;
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
+                .append("scoreId", getScoreId())
+                .append("scoreStudentid", getScoreStudentid())
+                .append("classCourseCourseId", getClassCourseCourseId())
+                .append("score", getScore())
+                .append("createBy", getCreateBy())
+                .append("createTime", getCreateTime())
+                .append("updateBy", getUpdateBy())
+                .append("updateTime", getUpdateTime())
+                .append("delFlag", getDelFlag())
+                .append("describe", getDescribe())
+                .toString();
     }
 
-    public void setUpdataBy(String updataBy) {
-        this.updataBy = updataBy;
+    public String getUpdateBy() {
+        return updateBy;
     }
 
-    public Date getUpdataTime() {
-        return updataTime;
+    public void setUpdateBy(String updateBy) {
+        this.updateBy = updateBy;
     }
 
-    public void setUpdataTime(Date updataTime) {
-        this.updataTime = updataTime;
+    public Date getUpdateTime() {
+        return updateTime;
     }
 
     public String getDelFlag() {
@@ -126,19 +138,7 @@ public class EduScore extends BaseEntity {
         this.describe = describe;
     }
 
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
-                .append("scoreId", getScoreId())
-                .append("scoreStudentid", getScoreStudentid())
-                .append("classCourseCourseId", getClassCourseCourseId())
-                .append("score", getScore())
-                .append("createBy", getCreateBy())
-                .append("createTime", getCreateTime())
-                .append("updataBy", getUpdataBy())
-                .append("updataTime", getUpdataTime())
-                .append("delFlag", getDelFlag())
-                .append("describe", getDescribe())
-                .toString();
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
     }
 }

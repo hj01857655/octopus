@@ -2,8 +2,6 @@ package com.htxk.edusystem.domain;
 
 import com.htxk.ruoyi.common.annotation.Excel;
 import com.htxk.ruoyi.common.core.domain.BaseEntity;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.util.Date;
 import java.util.List;
@@ -87,20 +85,20 @@ public class EduMajor extends BaseEntity {
         this.describe = describe;
     }
 
-    public String getUpdataBy() {
+    public String getUpdateBy() {
         return updateBy;
     }
 
-    public void setUpdataBy(String updataBy) {
-        this.updateBy = updataBy;
+    public void setUpdateBy(String updateBy) {
+        this.updateBy = updateBy;
     }
 
-    public Date getUpdataTime() {
+    public Date getUpdateTime() {
         return updateTime;
     }
 
-    public void setUpdataTime(Date updataTime) {
-        this.updateTime = updataTime;
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
     }
 
     public String getDelFlag() {

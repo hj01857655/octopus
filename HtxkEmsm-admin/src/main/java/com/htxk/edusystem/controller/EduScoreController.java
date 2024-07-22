@@ -8,8 +8,6 @@ import com.htxk.ruoyi.common.core.domain.AjaxResult;
 import com.htxk.ruoyi.common.core.page.TableDataInfo;
 import com.htxk.ruoyi.common.enums.BusinessType;
 import com.htxk.ruoyi.common.utils.poi.ExcelUtil;
-import com.htxk.ruoyi.system.domain.SysUser;
-import com.htxk.ruoyi.system.service.ISysUserService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -87,7 +85,7 @@ public class EduScoreController extends BaseController {
         //设置创建时间
         eduScore.setCreateTime(new Date());
         //设置修改时间
-        eduScore.setUpdataTime(new Date());
+        eduScore.setUpdateTime(new Date());
         return toAjax(eduScoreService.insertEduScore(eduScore));
     }
 
@@ -111,9 +109,9 @@ public class EduScoreController extends BaseController {
     public AjaxResult editSave(EduScore eduScore,HttpSession session) {
         String userName = session.getAttribute("username").toString();
         //设置更新者
-        eduScore.setUpdataBy(userName);
+        eduScore.setUpdateBy(userName);
         //设置修改时间
-        eduScore.setUpdataTime(new Date());
+        eduScore.setUpdateTime(new Date());
         return toAjax(eduScoreService.updateEduScore(eduScore));
     }
 

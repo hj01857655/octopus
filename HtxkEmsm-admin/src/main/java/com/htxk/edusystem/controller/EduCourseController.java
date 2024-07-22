@@ -102,7 +102,7 @@ public class EduCourseController extends BaseController {
     @PostMapping("/edit")
     @ResponseBody
     public AjaxResult editSave(EduCourse eduCourse) {
-        eduCourse.setUpdataBy(ShiroUtils.getLoginName());
+        eduCourse.setUpdateBy(ShiroUtils.getLoginName());
         eduCourse.setUpdateTime(new Date());
         return toAjax(eduCourseService.updateEduCourse(eduCourse));
     }
