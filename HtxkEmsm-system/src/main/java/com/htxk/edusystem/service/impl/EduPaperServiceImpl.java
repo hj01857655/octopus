@@ -5,9 +5,7 @@ import com.htxk.edusystem.domain.EduQuestion;
 import com.htxk.edusystem.mapper.EduPaperMapper;
 import com.htxk.edusystem.mapper.EduQuestionMapper;
 import com.htxk.edusystem.service.IEduPaperService;
-import com.htxk.ruoyi.common.core.domain.Ztree;
 import com.htxk.ruoyi.common.core.text.Convert;
-import com.htxk.ruoyi.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -2,8 +2,6 @@ package com.htxk.edusystem.domain;
 
 import com.htxk.ruoyi.common.annotation.Excel;
 import com.htxk.ruoyi.common.core.domain.BaseEntity;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.util.Date;
 import java.util.List;

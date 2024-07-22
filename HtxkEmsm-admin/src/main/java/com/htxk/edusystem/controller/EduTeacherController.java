@@ -1,6 +1,5 @@
 package com.htxk.edusystem.controller;
 
-import com.htxk.edusystem.domain.EduStudent;
 import com.htxk.edusystem.domain.EduTeacher;
 import com.htxk.edusystem.service.IEduTeacherService;
 import com.htxk.ruoyi.common.annotation.Log;

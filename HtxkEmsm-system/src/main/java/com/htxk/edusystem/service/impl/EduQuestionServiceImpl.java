@@ -3,13 +3,11 @@ package com.htxk.edusystem.service.impl;
 import com.htxk.edusystem.domain.EduQuestion;
 import com.htxk.edusystem.mapper.EduQuestionMapper;
 import com.htxk.edusystem.service.IEduQuestionService;
-import com.htxk.ruoyi.common.core.domain.Ztree;
 import com.htxk.ruoyi.common.core.text.Convert;
 import com.htxk.ruoyi.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

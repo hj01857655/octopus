@@ -4,7 +4,6 @@ import com.htxk.edusystem.domain.EduStudent;
 import com.htxk.edusystem.mapper.EduStudentMapper;
 import com.htxk.edusystem.service.IEduStudentService;
 import com.htxk.ruoyi.common.core.text.Convert;
-import com.htxk.ruoyi.system.mapper.SysUserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

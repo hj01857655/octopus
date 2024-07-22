@@ -1,11 +1,14 @@
 package com.htxk.ruoyi.common.utils.spring;
 
+
 import org.springframework.aop.framework.AopContext;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
+
 import org.springframework.stereotype.Component;
+
 
 /**
  * spring工具类 方便在非spring管理环境中获取bean
@@ -94,7 +97,6 @@ public final class SpringUtils implements BeanFactoryPostProcessor {
     public static <T> T getAopProxy(T invoker) {
         return (T) AopContext.currentProxy();
     }
-
     @Override
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
         SpringUtils.beanFactory = beanFactory;

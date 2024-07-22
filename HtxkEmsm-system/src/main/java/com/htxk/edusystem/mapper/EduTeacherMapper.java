@@ -1,6 +1,5 @@
 package com.htxk.edusystem.mapper;
 
-import com.htxk.edusystem.domain.EduClassTeacher;
 import com.htxk.edusystem.domain.EduTeacher;
 
 import java.util.List;

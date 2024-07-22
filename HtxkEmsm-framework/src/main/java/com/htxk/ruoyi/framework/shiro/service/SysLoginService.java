@@ -1,13 +1,11 @@
 package com.htxk.ruoyi.framework.shiro.service;
 
 import com.htxk.ruoyi.common.constant.Constants;
-import com.htxk.ruoyi.common.constant.ShiroConstants;
 import com.htxk.ruoyi.common.constant.UserConstants;
 import com.htxk.ruoyi.common.enums.UserStatus;
 import com.htxk.ruoyi.common.exception.user.*;
 import com.htxk.ruoyi.common.utils.DateUtils;
 import com.htxk.ruoyi.common.utils.MessageUtils;
-import com.htxk.ruoyi.common.utils.ServletUtils;
 import com.htxk.ruoyi.framework.manager.AsyncManager;
 import com.htxk.ruoyi.framework.manager.factory.AsyncFactory;
 import com.htxk.ruoyi.framework.util.ShiroUtils;
@@ -15,7 +13,6 @@ import com.htxk.ruoyi.system.domain.SysUser;
 import com.htxk.ruoyi.system.service.ISysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.util.StringUtils;
 
 /**
  * 登录校验方法
