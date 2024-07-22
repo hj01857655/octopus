@@ -60,6 +60,7 @@ CREATE TABLE `edu_classroom` (
 -- ----------------------------
 INSERT INTO `edu_classroom` VALUES ('1', '湖南大学数学院103', '60', null, '2020-01-03 19:12:42', null, null, '0');
 INSERT INTO `edu_classroom` VALUES ('2', '湖南大学数学院109', '0', 'admin', '2020-01-03 23:19:07', 'admin', '2020-01-03 23:20:58', '0');
+INSERT INTO `edu_classroom` VALUES ('3', '湖南大学数学院101', '60', null, '2020-01-03 19:12:42', null, null, '0');
 -- ----------------------------
 -- Table structure for edu_class_course
 -- ----------------------------
