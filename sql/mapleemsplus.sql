@@ -4,7 +4,7 @@ Navicat MySQL Data Transfer
 Source Server         : maple
 Source Server Version : 50540
 Source Host           : localhost:3306
-Source Database       : mapleemsmplus
+Source Database       : mapleemsplus
 
 Target Server Type    : MYSQL
 Target Server Version : 50540
@@ -82,7 +82,7 @@ CREATE TABLE `edu_class_course` (
 -- Records of edu_class_course
 -- ----------------------------
 INSERT INTO `edu_class_course` VALUES ('1', '1', '6', '1', null, '2020-01-10 15:50:48', null, null, '0');
-
+insert into edu_class_course values('2','3','6','1','admin','2020-01-09 17:07:03','admin','2020-01-09 17:07:03','0');
 -- ----------------------------
 -- Table structure for edu_class_teacher
 -- ----------------------------
