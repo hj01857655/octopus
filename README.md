@@ -1,10 +1,5 @@
 # octopus
 
-#### 提供部署，定制服务，有需要的加v mapleCx331
-
-* 阿里云服务器优惠：[点我进入](https://www.aliyun.com/daily-act/ecs/activity_selection?userCode=yclv4x57)，腾讯云产品优惠：[点我进入](https://curl.qcloud.com/ZHPbMWTl)&nbsp;&nbsp;
-* 阿里云618：[点我领取](https://www.aliyun.com/minisite/goods?userCode=yclv4x57)，腾讯云618：[点我领取](https://curl.qcloud.com/6znbHFOM)&nbsp;&nbsp;
-
 #### 介绍
 octopus高校教学综合平台，主要用于对教师，学生，管理的信息管理，课程管理，专业信息管理，班级管理，可以添加题库，可以上传下载教学资料，可以设置考试试卷，可以进行在线考试和自动评分
 
