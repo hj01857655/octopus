@@ -61,7 +61,7 @@
 
 (function () {
 
-    function style_html(html_source, options, js_beautify, css_beautify) {
+	function style_html(html_source, options, js_beautify, css_beautify) {
         //Wrapper function to invoke all the necessary constructors and deal with the output.
 
         var multi_parser,
@@ -78,7 +78,7 @@
         max_char = options.max_char === 0 ? Infinity : options.max_char || 250;
         unformatted = options.unformatted || ['a', 'span', 'bdo', 'em', 'strong', 'dfn', 'code', 'samp', 'kbd', 'var', 'cite', 'abbr', 'acronym', 'q', 'sub', 'sup', 'tt', 'i', 'b', 'big', 'small', 'u', 's', 'strike', 'font', 'ins', 'del', 'pre', 'address', 'dt', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
 
-        function Parser() {
+		function Parser() {
 
             this.pos = 0; //Parser position
             this.token = '';
