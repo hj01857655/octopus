@@ -83,6 +83,7 @@ CREATE TABLE `edu_class_course` (
 -- ----------------------------
 INSERT INTO `edu_class_course` VALUES ('1', '1', '6', '1', null, '2020-01-10 15:50:48', null, null, '0');
 insert into edu_class_course values('2','3','6','1','admin','2020-01-09 17:07:03','admin','2020-01-09 17:07:03','0');
+insert into edu_class_course values('3','4','6','1','admin','2020-01-09 17:07:03','admin','2020-01-09 17:07:03','0');
 -- ----------------------------
 -- Table structure for edu_class_teacher
 -- ----------------------------
@@ -105,7 +106,7 @@ CREATE TABLE `edu_class_teacher` (
 INSERT INTO `edu_class_teacher` VALUES ('1', '1', '6', 'admin', '2020-01-09 17:40:41', 'admin', '2021-03-20 15:10:16', '0');
 INSERT INTO `edu_class_teacher` VALUES ('2', '1', '8', 'admin', '2020-01-09 17:40:49', null, null, '0');
 INSERT INTO `edu_class_teacher` VALUES ('3', '1', '9', 'admin', '2020-01-09 17:40:55', null, null, '0');
-
+insert into edu_class_teacher values('4','3','6','admin','2020-01-09 17:07:03','admin','2020-01-09 17:07:03','0');
 -- ----------------------------
 -- Table structure for edu_course
 -- ----------------------------
