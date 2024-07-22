@@ -1,8 +1,6 @@
 package com.htxk.edusystem.service;
 
 import com.htxk.edusystem.domain.EduMajor;
-import com.htxk.ruoyi.common.core.domain.Ztree;
-import sun.reflect.generics.tree.Tree;
 
 import java.util.List;
 
